@@ -13,17 +13,60 @@
     flex-wrap: wrap;
 }
 
+
+/* PADDING */
+.p-1{
+    padding: 1rem;
+}
+
+
+/* HORIZZONTAL ALIGN */
+.ha-s{
+    justify-content: flex-start;
+}
+
+.ha-c{
+    justify-content: center;
+}
+
+.ha-e{
+    justify-content: flex-end;
+}
+
+
+/* VERTICAL ALIGN */
+.va-t{
+    align-items: flex-start;
+}
+
+.va-m{
+    align-items: center;
+}
+
+.va-b{
+    align-items: flex-end;
+}
+
+
+
+/* SPACE ROW */
+.sr-a{
+    justify-content: space-around;
+}
+
+.sr-b{
+    justify-content: space-between;
+}
+
+
+/* CONTENT */
 .content{
     width: 100%;
-    min-height: 100%;
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     color: white;
-}
-
-.p-1{
-    padding: 1rem;
 }
 
 
